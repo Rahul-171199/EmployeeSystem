@@ -1,0 +1,6 @@
+FROM openjdk:11
+MAINTAINER "RRAHUL"
+COPY target/Employee-Management.jar /usr/app
+WORKDIR /usr/app/
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "Employee-Management.jar"]
