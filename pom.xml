@@ -12,6 +12,8 @@
     </parent>
  
     <build>
+
+        <finalName>Employee-Management</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
